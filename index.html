@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime</title>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <!-- Start header -->
+    <header>
+      <h2 class="logo">Anime</h2>
+      <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="#">Anime</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <button class="btnLogin-popup">Login</button>
+      </nav>
+    </header>
+    <!-- End header -->
+
+    <!-- Start Login Box -->
+    <section class="wrapper">
+      <span class="iconClose"><ion-icon name="close"></ion-icon></span>
+      <section class="box-form login">
+        <h2>Login</h2>
+        <form action="#">
+          <!-- Email -->
+          <section class="box-input">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="email" required />
+            <label for="">Email</label>
+          </section>
+          <!-- Password -->
+          <section class="box-input">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="password" required />
+            <label for="">Password</label>
+          </section>
+          <section class="rememberForgot">
+            <label><input type="checkbox" />Remember Me</label>
+            <a href="#">Forgot Password?</a>
+          </section>
+          <!-- Button Login -->
+          <button type="submit" class="btn">Login</button>
+          <section class="login-register">
+            <p>
+              Don't have an account?<a href="#" class="registerLink"
+                >Register</a
+              >
+            </p>
+          </section>
+        </form>
+      </section>
+
+      <section class="box-form register">
+        <h2>Registeration</h2>
+        <form action="#">
+          <section class="box-input">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="text" required />
+            <label for="">Username</label>
+          </section>
+          <!-- Email -->
+          <section class="box-input">
+            <span class="icon"><ion-icon name="person"></ion-icon></span>
+            <input type="email" required />
+            <label for="email">Email</label>
+          </section>
+          <!-- Password -->
+          <section class="box-input">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="password" required />
+            <label for="password">Password</label>
+          </section>
+          <section class="rememberForgot">
+            <label
+              ><input type="checkbox" />I agree to the terms & conditions</label
+            >
+          </section>
+          <!-- Button Login -->
+          <button type="submit" class="btn">Register</button>
+          <section class="login-register">
+            <p>
+              Already have an account?<a href="#" class="loginLink">Login</a>
+            </p>
+          </section>
+        </form>
+      </section>
+    </section>
+    <!-- End Login Box -->
+
+    <!-- Start Script -->
+    <script src="script/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- End Script -->
+  </body>
+</html>
