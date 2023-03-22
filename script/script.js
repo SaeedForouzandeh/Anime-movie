@@ -1,10 +1,11 @@
-// function anime() {
-//   fetch("")
-//     .then((res) => res.json())
-//     .than((res) => {
-//       call(res);
-//     });
-// }
+function anime() {
+  fetch("https://anime-facts-rest-api.herokuapp.com/api/v1/:anime_name")
+    .then((res) => res.json())
+    .than((res) => {
+      call(res);
+    });
+  console.log(res);
+}
 
 // const
 const wrapper = document.querySelector(".wrapper");
@@ -32,14 +33,3 @@ btnlogin.addEventListener("click", () => {
 iconClose.addEventListener("click", () => {
   wrapper.classList.remove("active-popup");
 });
-
-// function episodes() {
-//   fetch("https://api.tvmaze.com/shows/82/episodes")
-//     .then((res) => res.json())
-//     .then((res) => {
-//       call(res);
-
-//       console.log(res);
-//     })
-//     .catch((err) => console.log(err));
-// }
