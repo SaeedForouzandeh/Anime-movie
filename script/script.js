@@ -1,12 +1,3 @@
-function anime() {
-  fetch("https://anime-facts-rest-api.herokuapp.com/api/v1/:anime_name")
-    .then((res) => res.json())
-    .than((res) => {
-      call(res);
-    });
-  console.log(res);
-}
-
 // const
 const wrapper = document.querySelector(".wrapper");
 const loginLink = document.querySelector(".loginLink");
