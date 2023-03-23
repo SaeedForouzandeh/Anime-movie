@@ -1,7 +1,9 @@
 /* body {
   margin-top: 5%;
 } */
-
+body {
+  backdrop-filter: blur(50px);
+}
 article {
   padding-top: 5%;
   background: transparent;
